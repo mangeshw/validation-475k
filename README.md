@@ -58,7 +58,7 @@ This dataset contains around 475K images divided by classes. Dataset contains 94
 |p|26|V|58|.|90|
 |q|27|W|59|@|91|
 |r|28|X|60|/|92|
-|s|29|Y|61|\|93|
+|s|29|Y|61|\\|93|
 |t|30|Z|62|\||94|
 |u|31|?|63|	|  |
 |v|32|&|64| |  |
