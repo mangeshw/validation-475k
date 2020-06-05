@@ -30,7 +30,8 @@ This dataset contains around 475K images divided by classes. Dataset contains 94
 <br/>
 
 ### Mapping of Symbol to Label
-|Symbol|Label|Symbol|Label|Symbol|Label|
+Following table depicts images and its labels:
+|Image|Label|Image|Label|Image|Label|
 |------|-----|------|-----|------|-----|
 |1|1 |w|33|$|65|
 |2|2 |x|34|%|66|
@@ -67,7 +68,8 @@ This dataset contains around 475K images divided by classes. Dataset contains 94
 <br/>
 
 ### Illustration of Dataset
-|Formatting|Symbol|Image|
+Following table depicts images of alphabet `a` with all 16 formatting combinations and labels:
+|Formatting|Label|Image|
 |----------|------|-----|
 |Bold 									|b   |![](md-images/b.png)|
 |Bold, Italic							|bi  |![](md-images/bi.png)|
