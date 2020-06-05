@@ -1,9 +1,7 @@
 # Validation-475k
-Validating subset of 475K dataset
-
-### Introduction to 475K Dataset
 There are OCR packages available with which one can convert images to text, but there is limited data available for printed text with lower case, upper case, digits and special characters with varied formatting (bold, italic, underline, and strikethrough). Hence here we are presenting dataset which has 400+ fonts taken from Microsoft Excel with different combinations of formats, each image is unique and total dataset sums up around to 475,000 images
 
+### Introduction to 475K Dataset
 In this dataset we have provided images with upper case, lower case, digits, and special characters, totaling to 94 different classes. This dataset includes 407 fonts taken from Microsoft Excel in 16 different formatting options. Formatting options covered are bold, italic, underline, and strikethrough, with these 4 options 16 combinations can be generated for each class. Typically, a single font contains 1168 images, which leads us to around 475,000 images in the dataset, of size 50x50.
 
 ### Understanding Dataset
