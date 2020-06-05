@@ -1,8 +1,10 @@
 # Validation-475k
 There are OCR packages available with which one can convert images to text, but there is limited data available for printed text with lower case, upper case, digits and special characters with varied formatting (bold, italic, underline, and strikethrough). Hence here we are presenting dataset which has 400+ fonts taken from Microsoft Excel with different combinations of formats, each image is unique and total dataset sums up around to 475,000 images
 
+
 ### Introduction to 475K Dataset
 In this dataset we have provided images with upper case, lower case, digits, and special characters, totaling to 94 different classes. This dataset includes 407 fonts taken from Microsoft Excel in 16 different formatting options. Formatting options covered are bold, italic, underline, and strikethrough, with these 4 options 16 combinations can be generated for each class. Typically, a single font contains 1168 images, which leads us to around 475,000 images in the dataset, of size 50x50.
+
 
 ### Understanding Dataset
 This dataset contains around 475K images divided by classes. Dataset contains 94 classes, out of which class 1 – 66 have 6512 images per class and classes 67-94 have 1628 images per class. Labels and classes are given same name and are classified as follows:
@@ -11,7 +13,8 @@ This dataset contains around 475K images divided by classes. Dataset contains 94
 * Classes 63 – 66 are special characters having 6512 images per class (‘?’,’&’,’$’,’%’)
 * Classes 67 - 94 are rest of the special characters having 1628 images per class, detailed list is included at the end.
 
-#### Metadata:
+
+### Metadata:
 * All images are 50x50 pixels in size.
 * Folder containing images can act as label for that image. E.g. All images for alphabet ‘a’ are in folder named ‘11’.
 * Image file follow a naming format: <number>-<formatting>
@@ -24,10 +27,9 @@ This dataset contains around 475K images divided by classes. Dataset contains 94
   * Underline: ‘u’ e.g. Sample Text
 * Strikethrough: ‘s’ e.g. Sample Text
 * There are 16 combinations of made from these 4 formatting options, described below
-
+<br/>
 
 ### Mapping of Symbol to Label
-
 |Symbol|Label|Symbol|Label|Symbol|Label|
 |------|-----|------|-----|------|-----|
 |1|1 |w|33|$|65|
@@ -58,7 +60,28 @@ This dataset contains around 475K images divided by classes. Dataset contains 94
 |p|26|V|58|.|90|
 |q|27|W|59|@|91|
 |r|28|X|60|/|92|
-|s|29|Y|61|\\|93|
+|s|29|Y|61|\\ |93|
 |t|30|Z|62|\||94|
 |u|31|?|63|	|  |
 |v|32|&|64| |  |
+<br/>
+
+### Illustration of Dataset
+|Formatting|Symbol|Image|
+|----------|------|-----|
+|Bold 									|b   |![](md-images/b.png)|
+|Bold, Italic							|bi  |![](md-images/bi.png)|
+|Bold, Italic, Strikethrough			|bis |![](md-images/bis.png)|
+|Bold, Italic, Strikethrough, Underline	|bisu|![](md-images/bisu.png)|
+|Bold, Italic, Underline				|biu |![](md-images/biu.png)|
+|Bold, Strikethrough					|bs  |![](md-images/bs.png)|
+|Bold, Strikethrough, Underline			|bsu |![](md-images/bsu.png)|
+|Bold, Underline						|bu  |![](md-images/bu.png)|
+|Italic									|i   |![](md-images/i.png)|
+|Italic, Strikethrough					|is  |![](md-images/is.png)|
+|Italic, Strikethrough, Underline		|isu |![](md-images/isu.png)|
+|Italic, Underline						|iu  |![](md-images/iu.png)|
+|No formatting (normal font)			|n   |![](md-images/n.png)|
+|Strikethrough							|s   |![](md-images/s.png)|
+|Strikethrough, Underline				|su  |![](md-images/su.png)|
+|Underline								|u   |![](md-images/u.png)|
