@@ -13,7 +13,9 @@ This dataset contains around 475K images divided by classes. Dataset contains 94
 * Classes 63 – 66 are special characters having 6512 images per class (‘?’,’&’,’$’,’%’)
 * Classes 67 - 94 are rest of the special characters having 1628 images per class, detailed list is included at the end.
 
-**Note**: Kindly unzip the 3 zip files in `dataset/printed_alphabets` manually, code wouldn't do that.
+**Note**: 
+* Kindly unzip the 3 zip files in `dataset/printed_alphabets` manually, code wouldn't do that.
+* There shoudn't be any hyphen (-) in absolute path of image dataset
 
 ### Metadata:
 * All images are 50x50 pixels in size.
